@@ -11,10 +11,11 @@
     <script type="module" src="/src/main.tsx"></script>
     
 
+   
     <script>
-      window.chatwootSettings = {"position":"right","launcherTitle":"Chat with us","type":"standard"};
+      window.chatwootSettings = {"position":"right","launcherTitle":"Chat with us","type":"expanded_bubble"};
       (function(d,t) {
-        var BASE_URL="https://preprod-livechat.octopush.com";
+        var BASE_URL="https://livechat.octopush.com";
         var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=BASE_URL+"/packs/js/sdk.js";
         g.defer = true;
@@ -22,13 +23,14 @@
         s.parentNode.insertBefore(g,s);
         g.onload=function(){
           window.chatwootSDK.run({
-            websiteToken: 'iSWxGrAH8HRQjfcPEtGWjuoK',
+            websiteToken: 'tKnir2W4ThT7zmWyzLohxxNQ',
             baseUrl: BASE_URL,
             locale: 'en'
           })
         }
       })(document,"script");
     </script>
+    
     
     
   </body>

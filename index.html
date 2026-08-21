@@ -9,13 +9,12 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-   
-
+  
 
     <script>
       window.chatwootSettings = {"position":"right","launcherTitle":"Chat with us","type":"expanded_bubble"};
       (function(d,t) {
-        var BASE_URL="https://livechat.octopush.com";
+        var BASE_URL="https://preprod-livechat.octopush.com";
         var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
         g.src=BASE_URL+"/packs/js/sdk.js";
         g.defer = true;
@@ -23,14 +22,13 @@
         s.parentNode.insertBefore(g,s);
         g.onload=function(){
           window.chatwootSDK.run({
-            websiteToken: 'JCsMkHuZ5dpWWSLt5u72YRZu',
+            websiteToken: 'iSWxGrAH8HRQjfcPEtGWjuoK',
             baseUrl: BASE_URL,
             locale: 'en'
           })
         }
       })(document,"script");
     </script>
-    
     
     
   </body>
